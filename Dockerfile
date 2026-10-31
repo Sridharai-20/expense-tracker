@@ -1,7 +1,2 @@
-FROM node:22-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm install --omit=dev
-COPY . .
-EXPOSE 3000
-CMD ["node", "backend/server.js"]
+FROM scratch
+COPY frontend/index.html frontend/style.css frontend/script.js /
