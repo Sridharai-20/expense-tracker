@@ -1,4 +1,4 @@
-const API_URL = "/proxy/3000/api/expenses";
+const API_URL = "/api/expenses";
 
 const expenseForm = document.getElementById("expenseForm");
 const expenseTable = document.getElementById("expenseTable");
